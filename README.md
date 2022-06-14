@@ -9,7 +9,7 @@ Si tu veux éviter le blabla j’ai mis les étapes importantes en gras
 Remerciement 
 Je tiens à remercier Google, la doc Veyon et surtout mon G.O.D. sans qui rien de tout ça n'existerait.
 
-# PRIMO INSTALl (MASTER)
+# PRIMO INSTALL (MASTER)
 Voici la vidéo que j’ai utilisé Installing Veyon for Schools.
 Après avoir installé et configuré la version master via l’interface graphique sur le ou les pc principaux ( les pc master doivent avoir la même clé public et privée)
 -	DANS GENERAL CHOISIR LA MÉTHODE D’AUTHENTIFICATION PAR CLÉ (à faire sur chaque poste si vous n’exportez pas la config)
