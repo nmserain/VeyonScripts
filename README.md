@@ -26,7 +26,7 @@ Sur la clé usb à la racine ou dans le dossier il doit avoir les fichiers suiva
 # CONFIGURATION
 ## Editer le fichier 1-
 met le setup qui te plait (64 ou 32 bits).
-Editer le fichier 2-
+## Editer le fichier 2-
 modifier $locat et mettre le nom de la salle que vous avez rentré dans le master.
 modifier les variables pour que les noms de vos fichiers correspondent. 
 Le chemin d’installation par défaut c’est C:\Program Files\Veyon\, à changer selon tes besoins.
@@ -48,7 +48,7 @@ L'installation est silencieuse, donc pas de fenêtre, rien à accepter. C’est 
 ## Ouvrir powershell en tant qu’admin.
 ### Naviguer jusqu'à la clé ou dossier
 ( cd D:/ par exemple).
-### Exécuter le fichier -2. 
+## Exécuter le fichier -2. 
 (tape le nom du fichier 2- et fait entrer)
 Ce script ajoute le nom de la salle où doit apparaître le pc, installe la config et la clé publique et désautorise l'exécution de scripts.
 La fenêtre se ferme 2 secondes après que tout ait été exécuté.
@@ -63,45 +63,45 @@ Bonus : BoNuS
 
 
 # FAQ :
--	Ça fonctionne sur quels OS ?
-●	J’ai installé des pc windows 7 et windows 10. il ne devrait pas y avoir de pb pour Windows 11. Pas la peine d’essayer sur autre chose hein, c’est du POWERSHELL bordel. Pardon.
+**Ça fonctionne sur quels OS ?**
+> J’ai installé des pc windows 7 et windows 10. il ne devrait pas y avoir de pb pour Windows 11. Pas la peine d’essayer sur autre chose hein, c’est du POWERSHELL bordel. Pardon.
 
--	Pourquoi il y a un fichier bat et un fichier ps1 ? pourquoi pas les deux ps1 ?
-●	Je sais plus, mais ça fonctionne très bien comme ça.
+**Pourquoi il y a un fichier bat et un fichier ps1 ? pourquoi pas les deux ps1 ?**
+>	Je sais plus, mais ça fonctionne très bien comme ça.
 
--	Je peux copier les fichiers sur le pc et lancer les scripts ?
-●	Oui, assure-toi bien d’exécuter les scripts depuis le dossier ou sont les fichiers. Tout doit être au même endroit.
+**Je peux copier les fichiers sur le pc et lancer les scripts ?**
+>	Oui, assure-toi bien d’exécuter les scripts depuis le dossier ou sont les fichiers. Tout doit être au même endroit.
 
--	Comment je fais plusieurs pc master ?
-●	tu installes la version master sur les pc avec la même paire clé publique et privée. Avec un nom de salle différent, c'est plus facile à gérer.
+**Comment je fais plusieurs pc master ?**
+>	Tu installes la version master sur les pc avec la même paire clé publique et privée. Avec un nom de salle différent, c'est plus facile à gérer.
 
--	Comment je fais apparaître les pc sur le master ?
-●	il faut ajouter leur nom à la liste dans la bonne salle dans l’interface graphique. ( je l’ai fait à la mano le mec qui a nommé les pc avant moi c’était un roi. S’il vous faut un script pour le faire, faudra demander)
+**Comment je fais apparaître les pc sur le master ?**
+>	Il faut ajouter leur nom à la liste dans la bonne salle dans l’interface graphique. ( je l’ai fait à la mano le mec qui a nommé les pc avant moi c’était un roi. S’il vous faut un script pour le faire, faudra demander)
 
--	Je peux mettre un pc dans plusieurs salles ?
-●	oui sans pb. tu met le nom du pc dans autant de salles que tu veux.
+**Je peux mettre un pc dans plusieurs salles ?**
+>	oui sans pb. tu met le nom du pc dans autant de salles que tu veux.
 
 
--	C’est quoi le nom du pc ?
-●	tape la commande “hostname” dans le cmd du pc.
+**C’est quoi le nom du pc ?**
+>	tape la commande “hostname” dans le cmd du pc.
 
--	J’ai deux pc avec le même nom je fais quoi ?
-●	Renomme un des pc. 
+**J’ai deux pc avec le même nom je fais quoi ?**
+>	Renomme un des pc. 
 
--	On peut mettre l’IP du pc à la place ?
-●	oui mais ca fonctionne mieu avec le hostname
+**On peut mettre l’IP du pc à la place ?**
+>	Oui mais ca fonctionne mieu avec le hostname
 
--	On peut changer le nom des fichiers ?
-●	Oui, il suffit de changer les variables dans les scripts
+**On peut changer le nom des fichiers ?**
+> Oui, il suffit de changer les variables dans les scripts
 
--	Comment faire apparaître la fenêtre d’installation ?
-●	dans le fichier 1- retirer le “/S”. Si tu fais ça pour changer le dossier d’installation, il faudra changer le chemin dans le fichier -2. Il doit bien avoir une commande pour choisir le dossier d’installation, ça fera partie des améliorations s’il y en a.
+**Comment faire apparaître la fenêtre d’installation ?**
+>	Dans le fichier 1- retire le “/S”. Si tu fais ça pour changer le dossier d’installation, il faudra changer le chemin dans le fichier -2. Il doit bien avoir une commande pour choisir le dossier d’installation, ça fera partie des améliorations s’il y en a.
 
--	Ton truc est codé avec le gros orteil gauche, je peux l’améliorer ?
-●	bien sûr faites ce que vous voulez. Si vous voulez contribuer je peux mettre tout ça sur GitHub pour les plus téméraires d’entre vous pour que tout le monde ai les dernières améliorations des scripts.
+**Ton truc est codé avec le gros orteil gauche, je peux l’améliorer ?**
+>	bien sûr faites ce que vous voulez. Si vous voulez contribuer je peux mettre tout ça sur GitHub pour les plus téméraires d’entre vous pour que tout le monde ai les dernières améliorations des scripts.
 
--	T’as eu des problèmes lors de l’installation ?
-●	Pas dans les salles infos (46 postes sur 3 salles), mais au CDI (6pc)  j’ai eu un pb et j’ai dis FuckIt je verrais ça demain. ça fait 3 mois.
+**T’as eu des problèmes lors de l’installation ?**
+>	Pas dans les salles infos (46 postes sur 3 salles), mais au CDI (6pc)  j’ai eu un pb et j’ai dis FuckIt je verrais ça demain. ça fait 3 mois.
 
--	C’est qui ton G.O.D.
-●	Mon Gros Orteil Droit évidemment.
+**C’est qui ton G.O.D.**
+> Mon Gros Orteil Droit évidemment.
