@@ -6,7 +6,7 @@ Yo c’est N1C0.
 C’est un tuto pour installer veyon sur plusieurs ordi depuis une clé sans se péter la tête et gagner du temps. J’ai essayé d’être le plus complet possible mais ce tuto est amené à évoluer vu que c’est rédigé n’importe comment, ça ne tient qu'à vous.
 J’ai laissé mes fichiers de config pour que vous voyez à quoi ça ressemble. mais par pitié. SUPPRIMEZ LES ET  METTEZ LES VOTRES.
 Si tu veux éviter le blabla j’ai mis les étapes importantes en gras
-Remerciement 
+# Remerciement 
 Je tiens à remercier Google, la doc Veyon et surtout mon G.O.D. sans qui rien de tout ça n'existerait.
 
 # PRIMO INSTALL (MASTER)
