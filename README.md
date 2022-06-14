@@ -11,7 +11,7 @@ Je tiens à remercier Google, la doc Veyon et surtout mon G.O.D. sans qui rien d
 
 # PRIMO INSTALL (MASTER)
 Voici la vidéo que j’ai utilisé [Installing Veyon for Schools](https://www.youtube.com/watch?v=HrHJqdsCXUw).
-Après avoir installé et configuré la version master via l’interface graphique sur le ou les pc principaux ( les pc master doivent avoir la même clé public et privée)
+Après avoir installé et configuré la version master via l’interface graphique sur le ou les pc principaux ( les pc master doivent avoir la même clé public et privée, pour allumer les pc a distance il faut mettre leur adresse MAC)
 -	DANS GENERAL CHOISIR LA MÉTHODE D’AUTHENTIFICATION PAR CLÉ (à faire sur chaque poste si vous n’exportez pas la config)
 -	créer la paire de clés public et privée
 -	exporter la clé publique et la copier sur la clé usb
