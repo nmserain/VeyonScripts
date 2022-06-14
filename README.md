@@ -70,6 +70,9 @@ Bonus : [BoNuS](https://www.youtube.com/watch?v=dQw4w9WgXcQ)
 **Ça fonctionne sur quels OS ?**
 > J’ai installé des pc windows 7 et windows 10. il ne devrait pas y avoir de pb pour Windows 11. Pas la peine d’essayer sur autre chose hein, c’est du POWERSHELL bordel. Pardon.
 
+**Comment j'allume un pc à distance ?**
+> il faut mettre son adresse MAC dans le configurateur
+
 **Pourquoi il y a un fichier bat et un fichier ps1 ? pourquoi pas les deux ps1 ?**
 >	Je sais plus, mais ça fonctionne très bien comme ça.
 
