@@ -10,7 +10,7 @@ Si tu veux éviter le blabla j’ai mis les étapes importantes en gras
 Je tiens à remercier Google, la doc Veyon et surtout mon G.O.D. sans qui rien de tout ça n'existerait.
 
 # PRIMO INSTALL (MASTER)
-Voici la vidéo que j’ai utilisé Installing Veyon for Schools.
+Voici la vidéo que j’ai utilisé [Installing Veyon for Schools](https://www.youtube.com/watch?v=HrHJqdsCXUw).
 Après avoir installé et configuré la version master via l’interface graphique sur le ou les pc principaux ( les pc master doivent avoir la même clé public et privée)
 -	DANS GENERAL CHOISIR LA MÉTHODE D’AUTHENTIFICATION PAR CLÉ (à faire sur chaque poste si vous n’exportez pas la config)
 -	créer la paire de clés public et privée
@@ -53,13 +53,17 @@ L'installation est silencieuse, donc pas de fenêtre, rien à accepter. C’est 
 Ce script ajoute le nom de la salle où doit apparaître le pc, installe la config et la clé publique et désautorise l'exécution de scripts.
 La fenêtre se ferme 2 secondes après que tout ait été exécuté.
 
-Et voilà c’est fini !
-Ya plus qu’a répéter l’opération sur les autres pc.
-Voici quelque lien utiles:
-Une vidéo d’installation : Installing Veyon for Schools
-La documentation Veyon : Veyon Documentation
-Ton meilleur ami : Google
-Bonus : BoNuS
+Et voilà c’est fini ! Ya plus qu’a répéter l’opération sur les autres pc.
+
+Voici quelque lien utiles :
+
+Une vidéo d’installation : [Installing Veyon for Schools](https://www.youtube.com/watch?v=HrHJqdsCXUw)
+
+La documentation Veyon : [Veyon Documentation](https://docs.veyon.io/en/latest/)
+
+Ton meilleur ami : [Google](https://www.google.com/)
+
+Bonus : [BoNuS](https://www.youtube.com/watch?v=dQw4w9WgXcQ)
 
 
 # FAQ :
