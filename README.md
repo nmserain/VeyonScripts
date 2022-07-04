@@ -73,11 +73,8 @@ Bonus : [BoNuS](https://www.youtube.com/watch?v=dQw4w9WgXcQ)
 **Comment j'allume un pc à distance ?**
 > il faut mettre son adresse MAC dans le configurateur
 
-**Pourquoi il y a un fichier bat et un fichier ps1 ? pourquoi pas les deux ps1 ?**
->	Je sais plus, mais ça fonctionne très bien comme ça.
-
 **Je peux copier les fichiers sur le pc et lancer les scripts ?**
->	Oui, assure-toi bien d’exécuter les scripts depuis le dossier ou sont les fichiers. Tout doit être au même endroit.
+>	Oui, assure-toi bien d’exécuter les scripts depuis le dossier ou sont les fichiers en mode administrateur. Tout doit être au même endroit.
 
 **Comment je fais plusieurs pc master ?**
 >	Tu installes la version master sur les pc avec la même paire clé publique et privée. Avec un nom de salle différent, c'est plus facile à gérer.
