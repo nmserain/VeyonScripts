@@ -64,7 +64,7 @@ Ce script ajoute le nom de la salle où doit apparaître le pc, installe la conf
 ## Exécuter le fichier -4 en tant qu'admin.
 Il sert à rétablir le blocage de scripts.
 
-#Done
+# Done
 Et voilà c’est fini ! Ya plus qu’a répéter l’opération sur les autres pc.
 
 Voici quelque lien utiles :
