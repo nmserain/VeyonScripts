@@ -59,8 +59,7 @@ L'installation est silencieuse, donc pas de fenêtre, rien à accepter. C’est 
 ( cd D:/ par exemple).
 ## Exécuter le fichier -3. 
 ### (tape ___.\3-Veyon_Config.ps1___  et fait entrer)
-Ce script ajoute le nom de la salle où doit apparaître le pc, installe la config et la clé publique et désautorise l'exécution de scripts.
-La fenêtre se ferme 2 secondes après que tout ait été exécuté.
+Ce script ajoute le nom de la salle où doit apparaître le pc, installe la config et la clé publique.
 
 ## Exécuter le fichier -4 en tant qu'admin.
 Il sert à rétablir le blocage de scripts.
