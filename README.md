@@ -18,15 +18,19 @@ Après avoir installé et configuré la version master via l’interface graphiq
 -	exporter la config et la copier sur la clé usb ( ca se fait en ligne de commande, faut que je la retrouve, là j’ai pas le net. c’est dans la doc de Veyon. c’est pas obligatoire, si vous faites sans il suffit de supprimer la ligne  “  .\veyon-cli config import .. “ dans le fichier 2-)
 
 Sur la clé usb à la racine ou dans le dossier il doit avoir les fichiers suivants :
--	les fichiers 1- et 2-
+-	les fichiers
+    1-Unrestricted.bat,
+    2-Veyon_Install_Silent_NoMaster.ps1,
+    3-Veyon_Config.ps1 
+    4-Restricted.bat
 -	l’installation 64bits ou 32bits selon vos pc
 -	la clé publique ( XXX_public_key.pem)
 -	la config du master (myconfig.json)
 
 # CONFIGURATION
-## Editer le fichier 1-
-met le setup qui te plait (64 ou 32 bits).
 ## Editer le fichier 2-
+met le setup qui te plait (64 ou 32 bits).
+## Editer le fichier 3-
 modifier $locat et mettre le nom de la salle que vous avez rentré dans le master.
 modifier les variables pour que les noms de vos fichiers correspondent. 
 Le chemin d’installation par défaut c’est C:\Program Files\Veyon\, à changer selon tes besoins.
@@ -35,24 +39,32 @@ Après plus besoin de modifier ces fichiers.
 
 # INSTALLATION
 
-## Exécuter le fichier 1- en tant qu’admin
-La première ligne baisse le niveau de sécurité pour exécuter des scripts. On rétablit ce paramètre dans le fichier 2-.
+## Exécuter le fichier 1- en admin
+Il permet d'excuter des scripts en levant une restriction. On rétablit ce paramètre dans le fichier 2-
 
-la ligne suivante :
+### Ouvrir powershell en tant qu’admin.
+### Naviguer jusqu'à la clé ou dossier
+( cd D:/ par exemple).
+## Exécuter le fichier 2- 
+(tape ___.\2-Veyon_Install_Silent_NoMaster.ps1___  et fait entrer)
+Ce script :
 -	installe la version de Veyon de votre choix,
 -	en silencieux /S,
 -	sans le logiciel master “/nomaster” pour les pc “““esclaves”””. ( ce serait con que les élèves prennent le contrôle des autres pc).
-L'installation est silencieuse, donc pas de fenêtre, rien à accepter. C’est rapide. C’est terminé quand tu peux de nouveau écrire dans le terminal et que l'icône veyron apparaît en bas à droite avec les appli en arrière plan. 
+L'installation est silencieuse, donc pas de fenêtre, rien à accepter. C’est rapide. C’est terminé quand tu peux de nouveau écrire dans le terminal ET que l'icône veyron apparaît en bas à droite avec les appli en arrière plan. 
 
 
-## Ouvrir powershell en tant qu’admin.
+## Ouvrir powershell en tant qu’admin. 
+(ou utilisez la même fenetre admin powershell)
 ### Naviguer jusqu'à la clé ou dossier
 ( cd D:/ par exemple).
-## Exécuter le fichier -2. 
-(tape le nom du fichier 2- et fait entrer)
+## Exécuter le fichier -3. 
+(tape ___.\3-Veyon_Config.ps1___  et fait entrer)
 Ce script ajoute le nom de la salle où doit apparaître le pc, installe la config et la clé publique et désautorise l'exécution de scripts.
 La fenêtre se ferme 2 secondes après que tout ait été exécuté.
 
+## Exécuter le fichier -4 en tant qu'admin.
+Il sert à rétablir le blocage de scripts.
 Et voilà c’est fini ! Ya plus qu’a répéter l’opération sur les autres pc.
 
 Voici quelque lien utiles :
