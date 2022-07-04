@@ -42,11 +42,10 @@ Après plus besoin de modifier ces fichiers.
 ## Exécuter le fichier 1- en admin
 Il permet d'excuter des scripts en levant une restriction. On rétablit ce paramètre dans le fichier 2-
 
-### Ouvrir powershell en tant qu’admin.
-### Naviguer jusqu'à la clé ou dossier
+## Ouvrir powershell en tant qu’admin et Naviguer jusqu'à la clé ou dossier
 ( cd D:/ par exemple).
 ## Exécuter le fichier 2- 
-(tape ___.\2-Veyon_Install_Silent_NoMaster.ps1___  et fait entrer)
+### (tape ___.\2-Veyon_Install_Silent_NoMaster.ps1___  et fait entrer)
 Ce script :
 -	installe la version de Veyon de votre choix,
 -	en silencieux /S,
@@ -56,15 +55,17 @@ L'installation est silencieuse, donc pas de fenêtre, rien à accepter. C’est 
 
 ## Ouvrir powershell en tant qu’admin. 
 (ou utilisez la même fenetre admin powershell)
-### Naviguer jusqu'à la clé ou dossier
+## Naviguer jusqu'à la clé ou dossier
 ( cd D:/ par exemple).
 ## Exécuter le fichier -3. 
-(tape ___.\3-Veyon_Config.ps1___  et fait entrer)
+### (tape ___.\3-Veyon_Config.ps1___  et fait entrer)
 Ce script ajoute le nom de la salle où doit apparaître le pc, installe la config et la clé publique et désautorise l'exécution de scripts.
 La fenêtre se ferme 2 secondes après que tout ait été exécuté.
 
 ## Exécuter le fichier -4 en tant qu'admin.
 Il sert à rétablir le blocage de scripts.
+
+#Done
 Et voilà c’est fini ! Ya plus qu’a répéter l’opération sur les autres pc.
 
 Voici quelque lien utiles :
