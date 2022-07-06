@@ -15,7 +15,7 @@ Après avoir installé et configuré la version master via l’interface graphiq
 -	DANS GENERAL CHOISIR LA MÉTHODE D’AUTHENTIFICATION PAR CLÉ (à faire sur chaque poste si vous n’exportez pas la config)
 -	créer la paire de clés public et privée
 -	exporter la clé publique et la copier sur la clé usb
--	exporter la config et la copier sur la clé usb ( ca se fait en ligne de commande, faut que je la retrouve, là j’ai pas le net. c’est dans la doc de Veyon. c’est pas obligatoire, si vous faites sans il suffit de supprimer la ligne  “  .\veyon-cli config import .. “ dans le fichier 2-)
+-	exporter la config et la copier sur la clé usb ( dans veyon configurator faire Fichier > Sauver les parametres dans un fichier )
 
 Sur la clé usb à la racine ou dans le dossier il doit avoir les fichiers suivants :
 -	les fichiers
@@ -76,6 +76,14 @@ La documentation Veyon : [Veyon Documentation](https://docs.veyon.io/en/latest/)
 Ton meilleur ami : [Google](https://www.google.com/)
 
 Bonus : [BoNuS](https://www.youtube.com/watch?v=dQw4w9WgXcQ)
+
+# MISC
+## Export des salles et des ordi
+dans le dossier ou est installer veyon faire la commande
+___.\veyon-cli.exe networkobjects export computers.csv format "%type%;%name%;%host%;%mac%"___
+
+## Export de la config
+dans veyon configurator faire Fichier > Sauver les parametres dans un fichier
 
 
 # FAQ :
