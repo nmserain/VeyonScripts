@@ -1,0 +1,304 @@
+{
+    "Authentication": {
+        "Method": 1
+    },
+    "BuiltinDirectory": {
+        "NetworkObjects": {
+            "JsonStoreArray": [
+                {
+                    "Name": "A18",
+                    "Type": 2,
+                    "Uid": "{1de0e081-1ca4-5a65-9b62-12ed096c5dd4}"
+                },
+                {
+                    "HostAddress": "DESKTOP-ON94CEU",
+                    "MacAddress": "E0-D5-5E-79-82-8B",
+                    "Name": "DESKTOP-ON94CEU",
+                    "ParentUid": "{1de0e081-1ca4-5a65-9b62-12ed096c5dd4}",
+                    "Type": 3,
+                    "Uid": "{1b4048d1-8542-5eb1-9e15-c40749c47a52}"
+                },
+                {
+                    "HostAddress": "W10-A18-01",
+                    "MacAddress": "F4-6B-8C-82-CA-94",
+                    "Name": "W10-A18-01",
+                    "ParentUid": "{1de0e081-1ca4-5a65-9b62-12ed096c5dd4}",
+                    "Type": 3,
+                    "Uid": "{6049a8ae-b0ac-5e2c-8545-13ddca6d1b5d}"
+                },
+                {
+                    "HostAddress": "W7-A18-00",
+                    "MacAddress": "64-51-06-2D-10-34",
+                    "Name": "W7-A18-00",
+                    "ParentUid": "{1de0e081-1ca4-5a65-9b62-12ed096c5dd4}",
+                    "Type": 3,
+                    "Uid": "{853471ca-dcab-5d30-833e-9ea33f38592a}"
+                },
+                {
+                    "HostAddress": "W7-A18-01",
+                    "Name": "W7-A18-01",
+                    "ParentUid": "{1de0e081-1ca4-5a65-9b62-12ed096c5dd4}",
+                    "Type": 3,
+                    "Uid": "{01572e27-8770-53c6-8f08-4df81df80db4}"
+                },
+                {
+                    "HostAddress": "W7-A18-02",
+                    "Name": "W7-A18-02",
+                    "ParentUid": "{1de0e081-1ca4-5a65-9b62-12ed096c5dd4}",
+                    "Type": 3,
+                    "Uid": "{b3d8a4f6-18fd-599e-89e6-59f7506c6322}"
+                },
+                {
+                    "HostAddress": "W7-A18-03",
+                    "MacAddress": "C4-34-6B-66-65-D1",
+                    "Name": "W7-A18-03",
+                    "ParentUid": "{1de0e081-1ca4-5a65-9b62-12ed096c5dd4}",
+                    "Type": 3,
+                    "Uid": "{c2521bf6-ec87-523b-8162-998d1e3b25e0}"
+                },
+                {
+                    "HostAddress": "W7-A18-04",
+                    "MacAddress": "64-51-06-2D-2D-3B",
+                    "Name": "W7-A18-04",
+                    "ParentUid": "{1de0e081-1ca4-5a65-9b62-12ed096c5dd4}",
+                    "Type": 3,
+                    "Uid": "{78a5a7ff-1a32-5612-83c6-47606133a765}"
+                },
+                {
+                    "HostAddress": "W7-A18-05",
+                    "MacAddress": "64-51-06-31-4F-02",
+                    "Name": "W7-A18-05",
+                    "ParentUid": "{1de0e081-1ca4-5a65-9b62-12ed096c5dd4}",
+                    "Type": 3,
+                    "Uid": "{dfedf45a-bde6-5a79-967f-86f015a85067}"
+                },
+                {
+                    "HostAddress": "W7-A18-06",
+                    "Name": "W7-A18-06",
+                    "ParentUid": "{1de0e081-1ca4-5a65-9b62-12ed096c5dd4}",
+                    "Type": 3,
+                    "Uid": "{62e7fab9-1ac5-5780-a162-4b6e9cec7fc7}"
+                },
+                {
+                    "HostAddress": "W7-A18-08",
+                    "Name": "W7-A18-08",
+                    "ParentUid": "{1de0e081-1ca4-5a65-9b62-12ed096c5dd4}",
+                    "Type": 3,
+                    "Uid": "{9f208cc1-b592-5601-9769-5654ab96dc5d}"
+                },
+                {
+                    "HostAddress": "W7-A18-09",
+                    "Name": "W7-A18-09",
+                    "ParentUid": "{1de0e081-1ca4-5a65-9b62-12ed096c5dd4}",
+                    "Type": 3,
+                    "Uid": "{2501cf8a-9ce3-5fc6-8127-aebee7bc79ee}"
+                },
+                {
+                    "HostAddress": "W7-A18-10",
+                    "MacAddress": "64-51-06-31-4F-25",
+                    "Name": "W7-A18-10",
+                    "ParentUid": "{1de0e081-1ca4-5a65-9b62-12ed096c5dd4}",
+                    "Type": 3,
+                    "Uid": "{ae0314a1-7335-5c39-9ba2-69efdbdd55e3}"
+                },
+                {
+                    "HostAddress": "W7-A18-13",
+                    "MacAddress": "64-51-06-31-99-66",
+                    "Name": "W7-A18-13",
+                    "ParentUid": "{1de0e081-1ca4-5a65-9b62-12ed096c5dd4}",
+                    "Type": 3,
+                    "Uid": "{f0f7f9ee-3c31-5c02-b6dd-65f37595da43}"
+                },
+                {
+                    "HostAddress": "W7-A18-14",
+                    "Name": "W7-A18-14",
+                    "ParentUid": "{1de0e081-1ca4-5a65-9b62-12ed096c5dd4}",
+                    "Type": 3,
+                    "Uid": "{39d0fdc8-be9b-5664-8768-29f5a84fc88a}"
+                },
+                {
+                    "HostAddress": "W7-A18-15",
+                    "Name": "W7-A18-15",
+                    "ParentUid": "{1de0e081-1ca4-5a65-9b62-12ed096c5dd4}",
+                    "Type": 3,
+                    "Uid": "{d8a01428-28f2-5b1d-b2fa-a91344c5e325}"
+                },
+                {
+                    "HostAddress": "W7-A18-16",
+                    "Name": "W7-A18-16",
+                    "ParentUid": "{1de0e081-1ca4-5a65-9b62-12ed096c5dd4}",
+                    "Type": 3,
+                    "Uid": "{1334073b-50bb-572c-9b7e-eb81f2a42a4c}"
+                },
+                {
+                    "Name": "A19",
+                    "Type": 2,
+                    "Uid": "{68a52bf7-7188-5ae0-bf56-f341d2976bdc}"
+                },
+                {
+                    "HostAddress": "W7-A19-08",
+                    "MacAddress": "D4-85-64-99-4C-7A",
+                    "Name": "W7-A19-08",
+                    "ParentUid": "{68a52bf7-7188-5ae0-bf56-f341d2976bdc}",
+                    "Type": 3,
+                    "Uid": "{829e1dff-5c7e-54d3-b546-2c2461e856cb}"
+                },
+                {
+                    "HostAddress": "W10-A19-02",
+                    "MacAddress": "E0-D5-5E-79-82-8A",
+                    "Name": "W10-A19-02",
+                    "ParentUid": "{68a52bf7-7188-5ae0-bf56-f341d2976bdc}",
+                    "Type": 3,
+                    "Uid": "{1117b718-da9e-5ab5-a114-4c49dc9984e7}"
+                },
+                {
+                    "HostAddress": "W10-A19-03",
+                    "MacAddress": "E0-D5-5E-79-82-88",
+                    "Name": "W10-A19-03",
+                    "ParentUid": "{68a52bf7-7188-5ae0-bf56-f341d2976bdc}",
+                    "Type": 3,
+                    "Uid": "{4fb75c29-3881-5bd0-8639-3909d140558c}"
+                },
+                {
+                    "HostAddress": "W10-A19-04",
+                    "MacAddress": "E0-D5-5E-79-81-43",
+                    "Name": "W10-A19-04",
+                    "ParentUid": "{68a52bf7-7188-5ae0-bf56-f341d2976bdc}",
+                    "Type": 3,
+                    "Uid": "{f7d248fd-0e32-5eb6-acdf-54112d14a724}"
+                },
+                {
+                    "HostAddress": "W10-A19-05",
+                    "MacAddress": "E0-D5-5E-79-7D-6A",
+                    "Name": "W10-A19-05",
+                    "ParentUid": "{68a52bf7-7188-5ae0-bf56-f341d2976bdc}",
+                    "Type": 3,
+                    "Uid": "{c5e0b531-7511-5b62-bb5a-b76df39091c1}"
+                },
+                {
+                    "HostAddress": "W10-A19-06",
+                    "MacAddress": "E0-D5-5E-EC-DF-97",
+                    "Name": "W10-A19-06",
+                    "ParentUid": "{68a52bf7-7188-5ae0-bf56-f341d2976bdc}",
+                    "Type": 3,
+                    "Uid": "{3bd655d6-6d65-58f8-9b73-7d311941cb7e}"
+                },
+                {
+                    "HostAddress": "W10-A19-07",
+                    "MacAddress": "30-9C-23-A1-9D-98",
+                    "Name": "W10-A19-07",
+                    "ParentUid": "{68a52bf7-7188-5ae0-bf56-f341d2976bdc}",
+                    "Type": 3,
+                    "Uid": "{594f4b51-2ca6-5d6d-9872-e7c2056c0c4a}"
+                },
+                {
+                    "HostAddress": "W7-A19-12",
+                    "MacAddress": "D4-85-64-97-1A-96",
+                    "Name": "W7-A19-12",
+                    "ParentUid": "{68a52bf7-7188-5ae0-bf56-f341d2976bdc}",
+                    "Type": 3,
+                    "Uid": "{4b3ca97b-6265-5c87-b4d0-7717b9856764}"
+                },
+                {
+                    "HostAddress": "W7-A19-06",
+                    "MacAddress": "D4-85-64-99-4C-80",
+                    "Name": "W7-A19-06",
+                    "ParentUid": "{68a52bf7-7188-5ae0-bf56-f341d2976bdc}",
+                    "Type": 3,
+                    "Uid": "{9db50348-a0b3-5742-a31e-2d892092d75a}"
+                },
+                {
+                    "HostAddress": "W7-A19-11",
+                    "MacAddress": "D4-85-64-99-51-06",
+                    "Name": "W7-A19-11",
+                    "ParentUid": "{68a52bf7-7188-5ae0-bf56-f341d2976bdc}",
+                    "Type": 3,
+                    "Uid": "{dde913da-cc22-5e38-9b78-0e46e090533b}"
+                },
+                {
+                    "HostAddress": "W7-A19-09",
+                    "MacAddress": "D4-85-64-99-4C-06",
+                    "Name": "W7-A19-09",
+                    "ParentUid": "{68a52bf7-7188-5ae0-bf56-f341d2976bdc}",
+                    "Type": 3,
+                    "Uid": "{d0749e40-8dff-5cfe-a5b3-304e301be59b}"
+                },
+                {
+                    "HostAddress": "secretariat1-HP",
+                    "Name": "secretariat1-HP",
+                    "ParentUid": "{68a52bf7-7188-5ae0-bf56-f341d2976bdc}",
+                    "Type": 3,
+                    "Uid": "{d1854837-00ae-52bf-8149-af32c5e91adc}"
+                },
+                {
+                    "HostAddress": "W10-A19-09",
+                    "MacAddress": "F4-6B-8C-82-CA-6C",
+                    "Name": "W10-A19-09",
+                    "ParentUid": "{68a52bf7-7188-5ae0-bf56-f341d2976bdc}",
+                    "Type": 3,
+                    "Uid": "{6abc48ab-125b-50ea-8e53-d918d94707ab}"
+                },
+                {
+                    "HostAddress": "W10-A19-10",
+                    "MacAddress": "F4-6B-8C-82-CA-66",
+                    "Name": "W10-A19-10",
+                    "ParentUid": "{68a52bf7-7188-5ae0-bf56-f341d2976bdc}",
+                    "Type": 3,
+                    "Uid": "{c4bf1ef9-5603-57b2-8be0-75236df40356}"
+                }
+            ]
+        }
+    },
+    "Core": {
+        "ApplicationVersion": 7,
+        "InstallationID": "52e31027-7f8b-4f46-bcb0-08b858319f78",
+        "PluginVersions": {
+            "JsonStoreObject": {
+                "{14bacaaa-ebe5-449c-b881-5b382f952571}": "1.1",
+                "{1b08265b-348f-4978-acaa-45d4f6b90bd9}": "1.1",
+                "{1baa01e0-02d6-4494-a766-788f5b225991}": "1.1",
+                "{2917cdeb-ac13-4099-8715-20368254a367}": "1.1",
+                "{2ad98ccb-e9a5-43ef-8c4c-876ac5efbcb1}": "1.1",
+                "{387a0c43-1355-4ff6-9e1f-d098e9ce5127}": "1.1",
+                "{39d7a07f-94db-4912-aa1a-c4df8aee3879}": "1.1",
+                "{4122e8ca-b617-4e36-b851-8e050ed2d82e}": "1.2",
+                "{4790bad8-4c56-40d5-8361-099a68f0c24b}": "1.1",
+                "{67dfc1c1-8f37-4539-a298-16e74e34fd8b}": "1.1",
+                "{6f0a491e-c1c6-4338-8244-f823b0bf8670}": "1.2",
+                "{80580500-2e59-4297-9e35-e53959b028cd}": "1.2",
+                "{8ae6668b-9c12-4b29-9bfc-ff89f6604164}": "1.1",
+                "{a54ee018-42bf-4569-90c7-0d8470125ccf}": "2.0",
+                "{d4bb9c42-9eef-4ecb-8dd5-dfd84b355481}": "1.0",
+                "{e11bee03-b99c-465c-bf90-7e5339b83f6b}": "1.0",
+                "{ee322521-f4fb-482d-b082-82a79003afa7}": "1.1"
+            }
+        }
+    },
+    "LDAP": {
+        "ComputerLocationAttribute": "",
+        "ComputerLocationsByAttribute": "false",
+        "ComputerLocationsByContainer": "false",
+        "LocationNameAttribute": "",
+        "UserLoginNameAttribute": ""
+    },
+    "Master": {
+        "AllowAddingHiddenLocations": "false",
+        "AutoAdjustMonitoringIconSize": "true",
+        "AutoOpenComputerSelectPanel": true,
+        "AutoSelectCurrentLocation": "false",
+        "ComputerDoubleClickFeature": "ca00ad68-1709-4abe-85e2-48dff6ccf8a2",
+        "ConfirmUnsafeActions": "false",
+        "HideComputerFilter": "false",
+        "HideEmptyLocations": "false",
+        "HideLocalComputer": true,
+        "HideOwnSession": true,
+        "ShowCurrentLocationOnly": "false"
+    },
+    "Network": {
+        "FirewallExceptionEnabled": "1",
+        "VeyonServerPort": 11100
+    },
+    "Windows": {
+        "SoftwareSASEnabled": "1"
+    }
+}
