@@ -86,7 +86,7 @@ dans veyon configurator faire Fichier > Sauver les parametres dans un fichier
 ## Export des salles et des ordi
 dans le dossier ou est installer veyon faire la commande :
 
-___.\veyon-cli.exe networkobjects export computers.csv format "%type%;%name%;%host%;%mac%"___
+```sh .\veyon-cli.exe networkobjects export computers.csv format "%type%;%name%;%host%;%mac%" ```
 
 ## Import du fichier avec les salles et les ordi
 dans cet exemple le fichier doit etre au format csv, le séparateur (;), la première ligne doit etre le premier ordi ET PAS LE NOM DES COLLONNES.
