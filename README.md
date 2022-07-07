@@ -45,7 +45,7 @@ Il permet d'excuter des scripts en levant une restriction. On rétablit ce param
 ## Ouvrir powershell en tant qu’admin et Naviguer jusqu'à la clé ou dossier
 ( cd D:/ par exemple).
 ## Exécuter le fichier 2- 
-### (tape ___.\2-Veyon_Install_Silent_NoMaster.ps1___  et fait entrer)
+### (tape ```.\2-Veyon_Install_Silent_NoMaster.ps1```  et fait entrer)
 Ce script :
 -	installe la version de Veyon de votre choix,
 -	en silencieux /S,
@@ -58,7 +58,7 @@ L'installation est silencieuse, donc pas de fenêtre, rien à accepter. C’est 
 ## Naviguer jusqu'à la clé ou dossier
 ( cd D:/ par exemple).
 ## Exécuter le fichier -3. 
-### (tape ___.\3-Veyon_Config.ps1___  et fait entrer)
+### (tape ```.\3-Veyon_Config.ps1```  et fait entrer)
 Ce script ajoute le nom de la salle où doit apparaître le pc, installe la config et la clé publique.
 
 ## Exécuter le fichier -4 en tant qu'admin.
@@ -86,13 +86,13 @@ dans veyon configurator faire Fichier > Sauver les parametres dans un fichier
 ## Export des salles et des ordi
 dans le dossier ou est installer veyon faire la commande :
 
-```sh .\veyon-cli.exe networkobjects export computers.csv format "%type%;%name%;%host%;%mac%" ```
+``` .\veyon-cli.exe networkobjects export computers.csv format "%type%;%name%;%host%;%mac%" ```
 
 ## Import du fichier avec les salles et les ordi
 dans cet exemple le fichier doit etre au format csv, le séparateur (;), la première ligne doit etre le premier ordi ET PAS LE NOM DES COLLONNES.
 dans le dossier veyon faire la commande :
 
-___.\veyon-cli.exe networkobjects import .\computers.csv format "%location%;%name%;%host%;%mac%"___
+```.\veyon-cli.exe networkobjects import .\computers.csv format "%location%;%name%;%host%;%mac%" ```
 
 
 # FAQ :
